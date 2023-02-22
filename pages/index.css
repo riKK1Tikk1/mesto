@@ -1,0 +1,13 @@
+/* OUTSIDE FILES */
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/inter.css);
+
+/* WHOLE PAGE */
+@import url(../blocks/root/root.css);
+@import url(../blocks/page/page.css);
+
+/* HEADER */
+@import url(../blocks/header/header.css);
+
+/* FOOTER */
+@import url(../blocks/footer/footer.css);
