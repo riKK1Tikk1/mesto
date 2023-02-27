@@ -1,0 +1,25 @@
+
+/* no plus? */
+
+.add-button {
+    margin: auto;
+    height: 50px;
+    width: 282px;
+    box-sizing: border-box;
+    background-image: url(../../../images/plus.svg);
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: center;
+    position: relative;
+    border: 2px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: blueviolet;
+    /* background-color: transparent; */
+}
+@media screen and (min-width: 768px) {
+    .add-button {
+        margin: 0;
+        width: 150px;
+        background-size: 22px 22px;
+    }
+} 

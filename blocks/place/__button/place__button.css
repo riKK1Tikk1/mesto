@@ -1,0 +1,17 @@
+.place__button {
+    height: 19px;
+    width: 22px;
+    box-sizing: border-box;
+    background-image: url(../../../images/like.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: relative;
+    background-color: blue;
+}
+@media screen and (min-width: 768px) {
+    .place__button {
+        margin: 0;
+        background-size: 22px 22px;
+    }
+}
