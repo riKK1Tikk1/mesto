@@ -12,6 +12,10 @@
     background-color: brown;
 }
 
+.profile-info__button:hover {
+    opacity: 0.6;
+}
+
 @media screen and (min-width: 768px) {
     .profile-info__button {
         height: 24px;
