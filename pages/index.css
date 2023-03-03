@@ -27,6 +27,9 @@
 @import url(../blocks/profile-info/__subtitle/profile-info__subtitle.css);
 @import url(../blocks/profile-info/__button/profile-info__button.css);
 
+/* FORM */
+@import url(../blocks/form/form.css);
+
 /* ADD-BUTTON */
 @import url(../blocks/add-button/add-button.css);
 

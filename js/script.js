@@ -1,24 +1,24 @@
-// Находим форму в DOM
-let formElement = document.querySelector('profile-info__button'); // Воспользуйтесь методом querySelector()
-    
-// Находим поля формы в DOM
-let nameInput = document.querySelector('profile-info__title'); // Воспользуйтесь инструментом .querySelector()
-let jobInput = document.querySelector('profile-info__subtitle'); // Воспользуйтесь инструментом .querySelector()
-
-// Обработчик «отправки» формы, хотя пока
-// она никуда отправляться не будет
-function handleFormSubmit (evt) {
-    evt.preventDefault(); // Эта строчка отменяет стандартную отправку формы.
-                                                // Так мы можем определить свою логику отправки.
-                                                // О том, как это делать, расскажем позже.
-
-    // Получите значение полей jobInput и nameInput из свойства value
-
-    // Выберите элементы, куда должны быть вставлены значения полей
-
-    // Вставьте новые значения с помощью textContent
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
 }
 
-// Прикрепляем обработчик к форме:
-// он будет следить за событием “submit” - «отправка»
-formElement.addEventListener('submit', handleFormSubmit); 
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
+function saveForm() {
+  // let nameInput = document.querySelector(popup__field_1);
+  // let jobInput = document.querySelector(popup__field_2);
+  // let profileI = document.querySelector(profile-info);
+  // profileI.insertAdjacentHTML('beforeend', `
+	// 	<div class="profile-info__top">
+  //           <h1 class="profile-info__title">&{nameInput}</h1>
+  //           <button class="profile-info__button" onclick="openForm()"></button>
+  //           </div>
+  //           <p class="profile-info__subtitle">&{jobInput}</p>
+  // `);
+
+  document.getElementById("myForm").style.display = "none";
+}
+let addButton = container.querySelector('.btn-save');
+addButton.addEventListener('click', saveForm);
