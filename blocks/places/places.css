@@ -5,7 +5,7 @@
     align-items: center;
     margin: 0 19px 28px 19px;
     max-width: calc(100%-38px);
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 @media screen and (min-width: 768px) {

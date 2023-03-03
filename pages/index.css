@@ -18,7 +18,6 @@
 /* AVATAR */
 @import url(../blocks/avatar/avatar.css);
 @import url(../blocks/avatar/__image/avatar__image.css);
-@import url(../blocks/avatar/__ellipse/avatar__ellipse.css);
 
 /* PROFILE-INFO */
 @import url(../blocks/profile-info/profile-info.css);
