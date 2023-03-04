@@ -1,6 +1,4 @@
-
-
- .add-button {
+.add-button {
     margin: auto;
     height: 50px;
     width: 282px;
@@ -9,12 +7,12 @@
     background-repeat: no-repeat;
     background-size: 16px 16px;
     background-position: center;
-    position: relative;  
+    position: relative;
     border: 2px solid #FFFFFF;
     border-radius: 2px;
     background-color: black;
     /* background-color: blueviolet;  */
-} 
+}
 
 .add-button:hover {
     opacity: 0.6;
